@@ -1,7 +1,3 @@
-.App {
-  /*text-align: center;*/
-}
-
 /*
 A ":root" pseudo style is the idiomatic way to do CSS variables globally, but what's an idiomatic way to declare CSS
 variables in the context of a React component? I know React doesn't have strong encapsulation of CSS, but we at least
@@ -12,7 +8,7 @@ try to express our intentions in the code.
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 10vmin;
   pointer-events: none;
   background-color: var(--theme-color-dark);
   border: var(--theme-color-dark) solid thick;
