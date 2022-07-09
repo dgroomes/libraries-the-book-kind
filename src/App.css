@@ -1,40 +1,29 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
+}
+
+/*
+A ":root" pseudo style is the idiomatic way to do CSS variables globally, but what's an idiomatic way to declare CSS
+variables in the context of a React component? I know React doesn't have strong encapsulation of CSS, but we at least
+try to express our intentions in the code.
+*/
+:root {
+    --theme-color-dark: #282c34;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: var(--theme-color-dark);
+  border: var(--theme-color-dark) solid thick;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 button {

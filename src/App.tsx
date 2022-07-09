@@ -1,45 +1,27 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import logo from './logo.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
-  )
+    return (
+        <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo"/>
+                <h1>Libraries - The Book Kind</h1>
+            </header>
+            <p>This is a personal-interest project that combines my continuous learning of web technologies with a
+                real-life example: Hennepin County Libraries!</p>
+            <p>
+                <a
+                    className="App-link"
+                    href="https://www.hclib.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Hennepin County Library website
+                </a>
+            </p>
+        </div>
+    )
 }
 
 export default App

@@ -7,7 +7,8 @@ Exploring public libraries in the Hennepin County Library system in Minnesota.
 
 ## Description
 
-This is a personal-interest project that combines my continuous learning of web technologies with a real-life example.
+This is a personal-interest project that combines my continuous learning of web technologies with a real-life example:
+Hennepin County Libraries!
 
 
 ## Instructions
