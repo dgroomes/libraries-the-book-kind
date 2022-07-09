@@ -27,8 +27,9 @@ Follow these instructions to build and serve the app:
 
 General clean ups, todos and things I wish to implement for this project:
 
-* [ ] Hardcode a list of libraries and render a simple unorderd-list
+* [x] DONE Hardcode a list of libraries and render a simple unorderd-list
 * [ ] Style as a checklist, with the checked state stored in web storage
+* [x] IN PROGRESS Publish on GitHub Pages
 
 
 ## Reference
